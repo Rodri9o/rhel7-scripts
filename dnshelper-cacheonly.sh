@@ -11,6 +11,7 @@
 
 # NOTE: In this configuration, any remote server can query this DNS server.
 # Take additional security measures using a network FW or restrict further using OS FW.
+# See port FW rules at end of script.
 
 currentTimestamp=`date +%y-%m-%d-%H:%M:%S`
 
@@ -44,9 +45,11 @@ options {
         recursion yes;
 
         forward only;
-        forwarders {               
-                8.8.8.8;     
-                8.8.4.4;               
+        forwarders {
+
+                8.8.8.8;
+                8.8.4.4;
+
         };
 
 };
