@@ -1,2 +1,2 @@
-# rhel7-scripts
+# RHEL 7 Scripts
 RHEL Labs Scripts
