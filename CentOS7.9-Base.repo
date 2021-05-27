@@ -1,0 +1,6 @@
+[RHEL7-7.9-RedHatEnterpriseLinuxServer-DVD0]
+name=Red Hat Enterprise Linux $releasever - $basearch (DVD)
+baseurl=http://10.162.34.34:80/RHEL7/u9/RedHatEnterpriseLinuxServer/x86_64/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
